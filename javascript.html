@@ -1,10 +1,14 @@
 <html>
     <head><title>javascript</title></head>
     <body><h1 id="title">Hello World</h1></body>
+    <button onclick="change()">change</button>
     <script> 
         document.getElementById("title");
         var sak=document.getElementById("title");
-        sak.textContent="Bye World";
+        function change()
+        {
+         sak.textContent="Bye World";
+        }
 
     </script>
 </html>
